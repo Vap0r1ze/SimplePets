@@ -391,6 +391,8 @@ public enum PetType {
         list.addFirst(SilentData.class);
         list.addFirst(BurningData.class);
         list.addFirst(FrozenData.class);
+        list.addFirst(StationaryData.class);
+        list.addFirst(PersistData.class);
         list.addFirst(Visible.class);
         list.addAll(Lists.newArrayList(petData));
         this.builder = builder.withName(Colorize.translateBungeeHex("&#c8f792" + Capitalise.capitalize(name().toLowerCase().replace("_", " "))));

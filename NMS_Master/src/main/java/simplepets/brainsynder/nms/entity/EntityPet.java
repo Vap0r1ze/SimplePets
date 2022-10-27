@@ -35,6 +35,7 @@ import simplepets.brainsynder.api.pet.PetType;
 import simplepets.brainsynder.api.plugin.SimplePets;
 import simplepets.brainsynder.api.plugin.config.ConfigOption;
 import simplepets.brainsynder.api.user.PetUser;
+import simplepets.brainsynder.debug.DebugLevel;
 import simplepets.brainsynder.nms.VersionTranslator;
 import simplepets.brainsynder.nms.pathfinder.PathfinderGoalLookAtOwner;
 import simplepets.brainsynder.nms.pathfinder.PathfinderWalkToPlayer;
@@ -57,6 +58,8 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
     private boolean frozen = false;
     private boolean silent = false;
     private boolean visible = true;
+    private boolean stationary = false;
+    private boolean persist = false;
     private ChatColor glowColor = ChatColor.WHITE;
     private boolean ignoreVanish = false;
     private int standTime = 0;
@@ -180,6 +183,27 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
     }
 
     @Override
+    public boolean isStationary() {
+        return stationary;
+    }
+
+    @Override
+    public void setStationary(boolean stationary) {
+        this.stationary = stationary;
+    }
+
+    @Override
+    public boolean shouldPersist() {
+        return persist;
+    }
+
+    @Override
+    public void setPersist(boolean persist) {
+        this.persist = persist;
+    }
+
+
+    @Override
     public void setPetName(String name) {
         if ((name == null) || name.isEmpty()) {
             Optional<IPetConfig> config = SimplePets.getPetConfigManager().getPetConfig(getPetType());
@@ -264,6 +288,9 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
             StorageTagCompound additional = object.getCompoundTag("additional");
             additional.getKeySet().forEach(pluginKey -> this.additional.put(pluginKey, additional.getCompoundTag(pluginKey)));
         }
+
+        if (object.hasKey("stationary")) setStationary(object.getBoolean("stationary", false));
+        if (object.hasKey("persist")) setPersist(object.getBoolean("persist", false));
 
         if (object.hasKey("frozen")) setFrozen(object.getBoolean("frozen", false));
         if (object.hasKey("burning")) setBurning(object.getBoolean("burning", false));
@@ -451,7 +478,7 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
 
         Entity bukkitEntity = getBukkitEntity();
         // This section handles the Auto-removal of pets after (tickDelay) Ticks of being stationary...
-        if (autoRemove && (bukkitEntity != null)) {
+        if (autoRemove && (bukkitEntity != null) && !persist) {
             Location location = bukkitEntity.getLocation();
             if ((blockX != location.getBlockX())
                     || (blockY != location.getBlockY())
@@ -462,6 +489,7 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
                 if (standTime != 0) standTime = 0;
             } else {
                 if (standTime == tickDelay) {
+                    SimplePets.getDebugLogger().debug("[EntityPet#tick] Auto-remove");
                     if (getPetUser () != null) {
                         getPetUser ().removePet(getPetType());
                     } else {
@@ -473,7 +501,8 @@ public abstract class EntityPet extends EntityBase implements IEntityPet {
         }
 
         // Handles all other Pet Tasks...
-        if (getPetUser () == null || getPetUser ().getPlayer() == null || !getPetUser ().getPlayer().isOnline()) {
+        if (getPetUser () == null || getPetUser ().getPlayer() == null || (!getPetUser ().getPlayer().isOnline() && !persist)) {
+            SimplePets.getDebugLogger().debug("[EntityPet#tick] Missing PetUser/Player");
             if (bukkitEntity != null)
                 bukkitEntity.remove();
             return;

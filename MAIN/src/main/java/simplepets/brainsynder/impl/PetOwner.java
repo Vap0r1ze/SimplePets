@@ -245,26 +245,27 @@ public class PetOwner implements PetUser {
      * Will save all the pets currently spawned, upload them to the database and then remove them
      */
     public void markForRespawn () {
+        boolean isPluginEnabled = PetCore.getInstance().isEnabled();
         petMap.forEach((type, entityPet) -> {
+            if (entityPet.shouldPersist() && isPluginEnabled) return;
             respawnPets.add(new StorageTagCompound()
                     .setTag("data", entityPet.asCompound())
                     .setString("type", type.getName())
             );
         });
         // If the server is shutting down
-        if (!PetCore.getInstance().isEnabled()) {
+        if (!isPluginEnabled) {
             PlayerSQL.getInstance().uploadDataSync(this);
             return;
         }
         updateDatabase().thenAccept(callback -> {
             // Reset everything after we finish saving
-            removePets();
+            removePets(true);
             this.nameMap.clear();
             this.vehicle = null;
             this.savedPetData.clear();
             this.hatPets.clear();
             this.ownedPets.clear();
-            this.petMap.clear();
             this.respawnPets.clear();
             isLoaded = false;
         });
@@ -424,9 +425,13 @@ public class PetOwner implements PetUser {
 
     @Override
     public boolean removePets() {
+        return removePets(false);
+    }
+    public boolean removePets(boolean forRespawn) {
         if (petMap.isEmpty()) return false;
         petMap.forEach((type, entityPet) -> {
             if (isPetHat(type)) setPetHat(type, false);
+            if (forRespawn && entityPet.shouldPersist()) return;
             PetRemoveEvent event = new PetRemoveEvent(this, entityPet);
             Bukkit.getPluginManager().callEvent(event);
             Utilities.runPetCommands(CommandReason.REVOKE, this, type);
@@ -439,8 +444,8 @@ public class PetOwner implements PetUser {
                 SimplePets.getParticleHandler().sendParticle(ParticleManager.Reason.REMOVE, getPlayer(), entity.getLocation());
                 entity.remove();
             });
+            petMap.remove(type);
         });
-        petMap.clear();
         return true;
     }
 

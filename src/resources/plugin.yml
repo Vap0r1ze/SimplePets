@@ -1303,6 +1303,8 @@ permissions:
             pet.type.allay.data.visible: true
             pet.type.allay.data.frozen: true
             pet.type.allay.data.burning: true
+            pet.type.allay.data.stationary: true
+            pet.type.allay.data.persist: true
             pet.type.allay.data.silent: true
 
 
@@ -1312,6 +1314,8 @@ permissions:
             pet.type.armorstand.data.visible: true
             pet.type.armorstand.data.frozen: true
             pet.type.armorstand.data.burning: true
+            pet.type.armorstand.data.stationary: true
+            pet.type.armorstand.data.persist: true
             pet.type.armorstand.data.silent: true
 
 
@@ -1321,6 +1325,8 @@ permissions:
             pet.type.axolotl.data.visible: true
             pet.type.axolotl.data.frozen: true
             pet.type.axolotl.data.burning: true
+            pet.type.axolotl.data.stationary: true
+            pet.type.axolotl.data.persist: true
             pet.type.axolotl.data.silent: true
             pet.type.axolotl.data.baby: true
             pet.type.axolotl.data.variant: true
@@ -1333,6 +1339,8 @@ permissions:
             pet.type.bat.data.visible: true
             pet.type.bat.data.frozen: true
             pet.type.bat.data.burning: true
+            pet.type.bat.data.stationary: true
+            pet.type.bat.data.persist: true
             pet.type.bat.data.silent: true
             pet.type.bat.data.hanging: true
 
@@ -1343,6 +1351,8 @@ permissions:
             pet.type.bee.data.visible: true
             pet.type.bee.data.frozen: true
             pet.type.bee.data.burning: true
+            pet.type.bee.data.stationary: true
+            pet.type.bee.data.persist: true
             pet.type.bee.data.silent: true
             pet.type.bee.data.baby: true
             pet.type.bee.data.angry: true
@@ -1357,6 +1367,8 @@ permissions:
             pet.type.blaze.data.visible: true
             pet.type.blaze.data.frozen: true
             pet.type.blaze.data.burning: true
+            pet.type.blaze.data.stationary: true
+            pet.type.blaze.data.persist: true
             pet.type.blaze.data.silent: true
 
 
@@ -1366,6 +1378,8 @@ permissions:
             pet.type.cat.data.visible: true
             pet.type.cat.data.frozen: true
             pet.type.cat.data.burning: true
+            pet.type.cat.data.stationary: true
+            pet.type.cat.data.persist: true
             pet.type.cat.data.silent: true
             pet.type.cat.data.baby: true
             pet.type.cat.data.tamed: true
@@ -1382,6 +1396,8 @@ permissions:
             pet.type.cavespider.data.visible: true
             pet.type.cavespider.data.frozen: true
             pet.type.cavespider.data.burning: true
+            pet.type.cavespider.data.stationary: true
+            pet.type.cavespider.data.persist: true
             pet.type.cavespider.data.silent: true
 
 
@@ -1391,6 +1407,8 @@ permissions:
             pet.type.chicken.data.visible: true
             pet.type.chicken.data.frozen: true
             pet.type.chicken.data.burning: true
+            pet.type.chicken.data.stationary: true
+            pet.type.chicken.data.persist: true
             pet.type.chicken.data.silent: true
             pet.type.chicken.data.baby: true
 
@@ -1401,6 +1419,8 @@ permissions:
             pet.type.cod.data.visible: true
             pet.type.cod.data.frozen: true
             pet.type.cod.data.burning: true
+            pet.type.cod.data.stationary: true
+            pet.type.cod.data.persist: true
             pet.type.cod.data.silent: true
 
 
@@ -1410,6 +1430,8 @@ permissions:
             pet.type.cow.data.visible: true
             pet.type.cow.data.frozen: true
             pet.type.cow.data.burning: true
+            pet.type.cow.data.stationary: true
+            pet.type.cow.data.persist: true
             pet.type.cow.data.silent: true
             pet.type.cow.data.baby: true
 
@@ -1420,6 +1442,8 @@ permissions:
             pet.type.creeper.data.visible: true
             pet.type.creeper.data.frozen: true
             pet.type.creeper.data.burning: true
+            pet.type.creeper.data.stationary: true
+            pet.type.creeper.data.persist: true
             pet.type.creeper.data.silent: true
             pet.type.creeper.data.powered: true
 
@@ -1430,6 +1454,8 @@ permissions:
             pet.type.dolphin.data.visible: true
             pet.type.dolphin.data.frozen: true
             pet.type.dolphin.data.burning: true
+            pet.type.dolphin.data.stationary: true
+            pet.type.dolphin.data.persist: true
             pet.type.dolphin.data.silent: true
 
 
@@ -1439,6 +1465,8 @@ permissions:
             pet.type.donkey.data.visible: true
             pet.type.donkey.data.frozen: true
             pet.type.donkey.data.burning: true
+            pet.type.donkey.data.stationary: true
+            pet.type.donkey.data.persist: true
             pet.type.donkey.data.silent: true
             pet.type.donkey.data.baby: true
             pet.type.donkey.data.chest: true
@@ -1452,6 +1480,8 @@ permissions:
             pet.type.drowned.data.visible: true
             pet.type.drowned.data.frozen: true
             pet.type.drowned.data.burning: true
+            pet.type.drowned.data.stationary: true
+            pet.type.drowned.data.persist: true
             pet.type.drowned.data.silent: true
             pet.type.drowned.data.baby: true
             pet.type.drowned.data.raised_arms: true
@@ -1464,6 +1494,8 @@ permissions:
             pet.type.elderguardian.data.visible: true
             pet.type.elderguardian.data.frozen: true
             pet.type.elderguardian.data.burning: true
+            pet.type.elderguardian.data.stationary: true
+            pet.type.elderguardian.data.persist: true
             pet.type.elderguardian.data.silent: true
 
 
@@ -1473,6 +1505,8 @@ permissions:
             pet.type.enderman.data.visible: true
             pet.type.enderman.data.frozen: true
             pet.type.enderman.data.burning: true
+            pet.type.enderman.data.stationary: true
+            pet.type.enderman.data.persist: true
             pet.type.enderman.data.silent: true
             pet.type.enderman.data.screaming: true
 
@@ -1483,6 +1517,8 @@ permissions:
             pet.type.endermite.data.visible: true
             pet.type.endermite.data.frozen: true
             pet.type.endermite.data.burning: true
+            pet.type.endermite.data.stationary: true
+            pet.type.endermite.data.persist: true
             pet.type.endermite.data.silent: true
 
 
@@ -1492,6 +1528,8 @@ permissions:
             pet.type.evoker.data.visible: true
             pet.type.evoker.data.frozen: true
             pet.type.evoker.data.burning: true
+            pet.type.evoker.data.stationary: true
+            pet.type.evoker.data.persist: true
             pet.type.evoker.data.silent: true
             pet.type.evoker.data.spell: true
 
@@ -1502,6 +1540,8 @@ permissions:
             pet.type.fox.data.visible: true
             pet.type.fox.data.frozen: true
             pet.type.fox.data.burning: true
+            pet.type.fox.data.stationary: true
+            pet.type.fox.data.persist: true
             pet.type.fox.data.silent: true
             pet.type.fox.data.baby: true
             pet.type.fox.data.sleep: true
@@ -1517,6 +1557,8 @@ permissions:
             pet.type.frog.data.visible: true
             pet.type.frog.data.frozen: true
             pet.type.frog.data.burning: true
+            pet.type.frog.data.stationary: true
+            pet.type.frog.data.persist: true
             pet.type.frog.data.silent: true
             pet.type.frog.data.variant: true
             pet.type.frog.data.croaking: true
@@ -1529,6 +1571,8 @@ permissions:
             pet.type.ghast.data.visible: true
             pet.type.ghast.data.frozen: true
             pet.type.ghast.data.burning: true
+            pet.type.ghast.data.stationary: true
+            pet.type.ghast.data.persist: true
             pet.type.ghast.data.silent: true
             pet.type.ghast.data.screaming: true
 
@@ -1539,6 +1583,8 @@ permissions:
             pet.type.giant.data.visible: true
             pet.type.giant.data.frozen: true
             pet.type.giant.data.burning: true
+            pet.type.giant.data.stationary: true
+            pet.type.giant.data.persist: true
             pet.type.giant.data.silent: true
 
 
@@ -1548,6 +1594,8 @@ permissions:
             pet.type.glowsquid.data.visible: true
             pet.type.glowsquid.data.frozen: true
             pet.type.glowsquid.data.burning: true
+            pet.type.glowsquid.data.stationary: true
+            pet.type.glowsquid.data.persist: true
             pet.type.glowsquid.data.silent: true
             pet.type.glowsquid.data.glowing: true
 
@@ -1558,6 +1606,8 @@ permissions:
             pet.type.goat.data.visible: true
             pet.type.goat.data.frozen: true
             pet.type.goat.data.burning: true
+            pet.type.goat.data.stationary: true
+            pet.type.goat.data.persist: true
             pet.type.goat.data.silent: true
             pet.type.goat.data.baby: true
             pet.type.goat.data.left-horn: true
@@ -1570,6 +1620,8 @@ permissions:
             pet.type.guardian.data.visible: true
             pet.type.guardian.data.frozen: true
             pet.type.guardian.data.burning: true
+            pet.type.guardian.data.stationary: true
+            pet.type.guardian.data.persist: true
             pet.type.guardian.data.silent: true
 
 
@@ -1579,6 +1631,8 @@ permissions:
             pet.type.hoglin.data.visible: true
             pet.type.hoglin.data.frozen: true
             pet.type.hoglin.data.burning: true
+            pet.type.hoglin.data.stationary: true
+            pet.type.hoglin.data.persist: true
             pet.type.hoglin.data.silent: true
             pet.type.hoglin.data.baby: true
             pet.type.hoglin.data.shaking: true
@@ -1590,6 +1644,8 @@ permissions:
             pet.type.horse.data.visible: true
             pet.type.horse.data.frozen: true
             pet.type.horse.data.burning: true
+            pet.type.horse.data.stationary: true
+            pet.type.horse.data.persist: true
             pet.type.horse.data.silent: true
             pet.type.horse.data.baby: true
             pet.type.horse.data.eating: true
@@ -1605,6 +1661,8 @@ permissions:
             pet.type.husk.data.visible: true
             pet.type.husk.data.frozen: true
             pet.type.husk.data.burning: true
+            pet.type.husk.data.stationary: true
+            pet.type.husk.data.persist: true
             pet.type.husk.data.silent: true
             pet.type.husk.data.baby: true
             pet.type.husk.data.raised_arms: true
@@ -1617,6 +1675,8 @@ permissions:
             pet.type.illusioner.data.visible: true
             pet.type.illusioner.data.frozen: true
             pet.type.illusioner.data.burning: true
+            pet.type.illusioner.data.stationary: true
+            pet.type.illusioner.data.persist: true
             pet.type.illusioner.data.silent: true
             pet.type.illusioner.data.spell: true
 
@@ -1627,6 +1687,8 @@ permissions:
             pet.type.irongolem.data.visible: true
             pet.type.irongolem.data.frozen: true
             pet.type.irongolem.data.burning: true
+            pet.type.irongolem.data.stationary: true
+            pet.type.irongolem.data.persist: true
             pet.type.irongolem.data.silent: true
 
 
@@ -1636,6 +1698,8 @@ permissions:
             pet.type.llama.data.visible: true
             pet.type.llama.data.frozen: true
             pet.type.llama.data.burning: true
+            pet.type.llama.data.stationary: true
+            pet.type.llama.data.persist: true
             pet.type.llama.data.silent: true
             pet.type.llama.data.baby: true
             pet.type.llama.data.chest: true
@@ -1650,6 +1714,8 @@ permissions:
             pet.type.magmacube.data.visible: true
             pet.type.magmacube.data.frozen: true
             pet.type.magmacube.data.burning: true
+            pet.type.magmacube.data.stationary: true
+            pet.type.magmacube.data.persist: true
             pet.type.magmacube.data.silent: true
             pet.type.magmacube.data.size: true
 
@@ -1660,6 +1726,8 @@ permissions:
             pet.type.mooshroom.data.visible: true
             pet.type.mooshroom.data.frozen: true
             pet.type.mooshroom.data.burning: true
+            pet.type.mooshroom.data.stationary: true
+            pet.type.mooshroom.data.persist: true
             pet.type.mooshroom.data.silent: true
             pet.type.mooshroom.data.baby: true
             pet.type.mooshroom.data.type: true
@@ -1671,6 +1739,8 @@ permissions:
             pet.type.mule.data.visible: true
             pet.type.mule.data.frozen: true
             pet.type.mule.data.burning: true
+            pet.type.mule.data.stationary: true
+            pet.type.mule.data.persist: true
             pet.type.mule.data.silent: true
             pet.type.mule.data.baby: true
             pet.type.mule.data.chest: true
@@ -1684,6 +1754,8 @@ permissions:
             pet.type.ocelot.data.visible: true
             pet.type.ocelot.data.frozen: true
             pet.type.ocelot.data.burning: true
+            pet.type.ocelot.data.stationary: true
+            pet.type.ocelot.data.persist: true
             pet.type.ocelot.data.silent: true
             pet.type.ocelot.data.baby: true
 
@@ -1694,6 +1766,8 @@ permissions:
             pet.type.panda.data.visible: true
             pet.type.panda.data.frozen: true
             pet.type.panda.data.burning: true
+            pet.type.panda.data.stationary: true
+            pet.type.panda.data.persist: true
             pet.type.panda.data.silent: true
             pet.type.panda.data.baby: true
             pet.type.panda.data.type: true
@@ -1708,6 +1782,8 @@ permissions:
             pet.type.parrot.data.visible: true
             pet.type.parrot.data.frozen: true
             pet.type.parrot.data.burning: true
+            pet.type.parrot.data.stationary: true
+            pet.type.parrot.data.persist: true
             pet.type.parrot.data.silent: true
             pet.type.parrot.data.rainbow: true
             pet.type.parrot.data.tamed: true
@@ -1721,6 +1797,8 @@ permissions:
             pet.type.phantom.data.visible: true
             pet.type.phantom.data.frozen: true
             pet.type.phantom.data.burning: true
+            pet.type.phantom.data.stationary: true
+            pet.type.phantom.data.persist: true
             pet.type.phantom.data.silent: true
             pet.type.phantom.data.size: true
 
@@ -1731,6 +1809,8 @@ permissions:
             pet.type.pig.data.visible: true
             pet.type.pig.data.frozen: true
             pet.type.pig.data.burning: true
+            pet.type.pig.data.stationary: true
+            pet.type.pig.data.persist: true
             pet.type.pig.data.silent: true
             pet.type.pig.data.baby: true
             pet.type.pig.data.saddled: true
@@ -1742,6 +1822,8 @@ permissions:
             pet.type.piglin.data.visible: true
             pet.type.piglin.data.frozen: true
             pet.type.piglin.data.burning: true
+            pet.type.piglin.data.stationary: true
+            pet.type.piglin.data.persist: true
             pet.type.piglin.data.silent: true
             pet.type.piglin.data.baby: true
             pet.type.piglin.data.charging: true
@@ -1755,6 +1837,8 @@ permissions:
             pet.type.piglinbrute.data.visible: true
             pet.type.piglinbrute.data.frozen: true
             pet.type.piglinbrute.data.burning: true
+            pet.type.piglinbrute.data.stationary: true
+            pet.type.piglinbrute.data.persist: true
             pet.type.piglinbrute.data.silent: true
             pet.type.piglinbrute.data.shaking: true
 
@@ -1765,6 +1849,8 @@ permissions:
             pet.type.pillager.data.visible: true
             pet.type.pillager.data.frozen: true
             pet.type.pillager.data.burning: true
+            pet.type.pillager.data.stationary: true
+            pet.type.pillager.data.persist: true
             pet.type.pillager.data.silent: true
 
 
@@ -1774,6 +1860,8 @@ permissions:
             pet.type.polarbear.data.visible: true
             pet.type.polarbear.data.frozen: true
             pet.type.polarbear.data.burning: true
+            pet.type.polarbear.data.stationary: true
+            pet.type.polarbear.data.persist: true
             pet.type.polarbear.data.silent: true
             pet.type.polarbear.data.baby: true
             pet.type.polarbear.data.standing: true
@@ -1785,6 +1873,8 @@ permissions:
             pet.type.pufferfish.data.visible: true
             pet.type.pufferfish.data.frozen: true
             pet.type.pufferfish.data.burning: true
+            pet.type.pufferfish.data.stationary: true
+            pet.type.pufferfish.data.persist: true
             pet.type.pufferfish.data.silent: true
             pet.type.pufferfish.data.size: true
 
@@ -1795,6 +1885,8 @@ permissions:
             pet.type.rabbit.data.visible: true
             pet.type.rabbit.data.frozen: true
             pet.type.rabbit.data.burning: true
+            pet.type.rabbit.data.stationary: true
+            pet.type.rabbit.data.persist: true
             pet.type.rabbit.data.silent: true
             pet.type.rabbit.data.baby: true
             pet.type.rabbit.data.variant: true
@@ -1806,6 +1898,8 @@ permissions:
             pet.type.ravager.data.visible: true
             pet.type.ravager.data.frozen: true
             pet.type.ravager.data.burning: true
+            pet.type.ravager.data.stationary: true
+            pet.type.ravager.data.persist: true
             pet.type.ravager.data.silent: true
             pet.type.ravager.data.chomping: true
 
@@ -1816,6 +1910,8 @@ permissions:
             pet.type.salmon.data.visible: true
             pet.type.salmon.data.frozen: true
             pet.type.salmon.data.burning: true
+            pet.type.salmon.data.stationary: true
+            pet.type.salmon.data.persist: true
             pet.type.salmon.data.silent: true
 
 
@@ -1825,6 +1921,8 @@ permissions:
             pet.type.sheep.data.visible: true
             pet.type.sheep.data.frozen: true
             pet.type.sheep.data.burning: true
+            pet.type.sheep.data.stationary: true
+            pet.type.sheep.data.persist: true
             pet.type.sheep.data.silent: true
             pet.type.sheep.data.baby: true
             pet.type.sheep.data.color: true
@@ -1838,6 +1936,8 @@ permissions:
             pet.type.shulker.data.visible: true
             pet.type.shulker.data.frozen: true
             pet.type.shulker.data.burning: true
+            pet.type.shulker.data.stationary: true
+            pet.type.shulker.data.persist: true
             pet.type.shulker.data.silent: true
             pet.type.shulker.data.color: true
             pet.type.shulker.data.rainbow: true
@@ -1850,6 +1950,8 @@ permissions:
             pet.type.silverfish.data.visible: true
             pet.type.silverfish.data.frozen: true
             pet.type.silverfish.data.burning: true
+            pet.type.silverfish.data.stationary: true
+            pet.type.silverfish.data.persist: true
             pet.type.silverfish.data.silent: true
 
 
@@ -1859,6 +1961,8 @@ permissions:
             pet.type.skeleton.data.visible: true
             pet.type.skeleton.data.frozen: true
             pet.type.skeleton.data.burning: true
+            pet.type.skeleton.data.stationary: true
+            pet.type.skeleton.data.persist: true
             pet.type.skeleton.data.silent: true
             pet.type.skeleton.data.raised_arms: true
 
@@ -1869,6 +1973,8 @@ permissions:
             pet.type.skeletonhorse.data.visible: true
             pet.type.skeletonhorse.data.frozen: true
             pet.type.skeletonhorse.data.burning: true
+            pet.type.skeletonhorse.data.stationary: true
+            pet.type.skeletonhorse.data.persist: true
             pet.type.skeletonhorse.data.silent: true
             pet.type.skeletonhorse.data.baby: true
             pet.type.skeletonhorse.data.eating: true
@@ -1881,6 +1987,8 @@ permissions:
             pet.type.slime.data.visible: true
             pet.type.slime.data.frozen: true
             pet.type.slime.data.burning: true
+            pet.type.slime.data.stationary: true
+            pet.type.slime.data.persist: true
             pet.type.slime.data.silent: true
             pet.type.slime.data.size: true
 
@@ -1891,6 +1999,8 @@ permissions:
             pet.type.snowman.data.visible: true
             pet.type.snowman.data.frozen: true
             pet.type.snowman.data.burning: true
+            pet.type.snowman.data.stationary: true
+            pet.type.snowman.data.persist: true
             pet.type.snowman.data.silent: true
             pet.type.snowman.data.pumpkin: true
 
@@ -1901,6 +2011,8 @@ permissions:
             pet.type.spider.data.visible: true
             pet.type.spider.data.frozen: true
             pet.type.spider.data.burning: true
+            pet.type.spider.data.stationary: true
+            pet.type.spider.data.persist: true
             pet.type.spider.data.silent: true
 
 
@@ -1910,6 +2022,8 @@ permissions:
             pet.type.squid.data.visible: true
             pet.type.squid.data.frozen: true
             pet.type.squid.data.burning: true
+            pet.type.squid.data.stationary: true
+            pet.type.squid.data.persist: true
             pet.type.squid.data.silent: true
 
 
@@ -1919,6 +2033,8 @@ permissions:
             pet.type.stray.data.visible: true
             pet.type.stray.data.frozen: true
             pet.type.stray.data.burning: true
+            pet.type.stray.data.stationary: true
+            pet.type.stray.data.persist: true
             pet.type.stray.data.silent: true
             pet.type.stray.data.raised_arms: true
 
@@ -1929,6 +2045,8 @@ permissions:
             pet.type.strider.data.visible: true
             pet.type.strider.data.frozen: true
             pet.type.strider.data.burning: true
+            pet.type.strider.data.stationary: true
+            pet.type.strider.data.persist: true
             pet.type.strider.data.silent: true
             pet.type.strider.data.baby: true
             pet.type.strider.data.saddled: true
@@ -1940,6 +2058,8 @@ permissions:
             pet.type.tadpole.data.visible: true
             pet.type.tadpole.data.frozen: true
             pet.type.tadpole.data.burning: true
+            pet.type.tadpole.data.stationary: true
+            pet.type.tadpole.data.persist: true
             pet.type.tadpole.data.silent: true
 
 
@@ -1949,6 +2069,8 @@ permissions:
             pet.type.traderllama.data.visible: true
             pet.type.traderllama.data.frozen: true
             pet.type.traderllama.data.burning: true
+            pet.type.traderllama.data.stationary: true
+            pet.type.traderllama.data.persist: true
             pet.type.traderllama.data.silent: true
             pet.type.traderllama.data.baby: true
             pet.type.traderllama.data.chest: true
@@ -1962,6 +2084,8 @@ permissions:
             pet.type.tropicalfish.data.visible: true
             pet.type.tropicalfish.data.frozen: true
             pet.type.tropicalfish.data.burning: true
+            pet.type.tropicalfish.data.stationary: true
+            pet.type.tropicalfish.data.persist: true
             pet.type.tropicalfish.data.silent: true
             pet.type.tropicalfish.data.body_color: true
             pet.type.tropicalfish.data.pattern: true
@@ -1974,6 +2098,8 @@ permissions:
             pet.type.turtle.data.visible: true
             pet.type.turtle.data.frozen: true
             pet.type.turtle.data.burning: true
+            pet.type.turtle.data.stationary: true
+            pet.type.turtle.data.persist: true
             pet.type.turtle.data.silent: true
             pet.type.turtle.data.baby: true
 
@@ -1984,6 +2110,8 @@ permissions:
             pet.type.vex.data.visible: true
             pet.type.vex.data.frozen: true
             pet.type.vex.data.burning: true
+            pet.type.vex.data.stationary: true
+            pet.type.vex.data.persist: true
             pet.type.vex.data.silent: true
             pet.type.vex.data.powered: true
 
@@ -1994,6 +2122,8 @@ permissions:
             pet.type.villager.data.visible: true
             pet.type.villager.data.frozen: true
             pet.type.villager.data.burning: true
+            pet.type.villager.data.stationary: true
+            pet.type.villager.data.persist: true
             pet.type.villager.data.silent: true
             pet.type.villager.data.baby: true
             pet.type.villager.data.shaking: true
@@ -2008,6 +2138,8 @@ permissions:
             pet.type.vindicator.data.visible: true
             pet.type.vindicator.data.frozen: true
             pet.type.vindicator.data.burning: true
+            pet.type.vindicator.data.stationary: true
+            pet.type.vindicator.data.persist: true
             pet.type.vindicator.data.silent: true
             pet.type.vindicator.data.johnny: true
 
@@ -2018,6 +2150,8 @@ permissions:
             pet.type.wanderingtrader.data.visible: true
             pet.type.wanderingtrader.data.frozen: true
             pet.type.wanderingtrader.data.burning: true
+            pet.type.wanderingtrader.data.stationary: true
+            pet.type.wanderingtrader.data.persist: true
             pet.type.wanderingtrader.data.silent: true
 
 
@@ -2027,6 +2161,8 @@ permissions:
             pet.type.warden.data.visible: true
             pet.type.warden.data.frozen: true
             pet.type.warden.data.burning: true
+            pet.type.warden.data.stationary: true
+            pet.type.warden.data.persist: true
             pet.type.warden.data.silent: true
             pet.type.warden.data.anger-level: true
             pet.type.warden.data.vibration: true
@@ -2038,6 +2174,8 @@ permissions:
             pet.type.witch.data.visible: true
             pet.type.witch.data.frozen: true
             pet.type.witch.data.burning: true
+            pet.type.witch.data.stationary: true
+            pet.type.witch.data.persist: true
             pet.type.witch.data.silent: true
             pet.type.witch.data.potion: true
 
@@ -2048,6 +2186,8 @@ permissions:
             pet.type.wither.data.visible: true
             pet.type.wither.data.frozen: true
             pet.type.wither.data.burning: true
+            pet.type.wither.data.stationary: true
+            pet.type.wither.data.persist: true
             pet.type.wither.data.silent: true
             pet.type.wither.data.shielded: true
             pet.type.wither.data.small: true
@@ -2059,6 +2199,8 @@ permissions:
             pet.type.witherskeleton.data.visible: true
             pet.type.witherskeleton.data.frozen: true
             pet.type.witherskeleton.data.burning: true
+            pet.type.witherskeleton.data.stationary: true
+            pet.type.witherskeleton.data.persist: true
             pet.type.witherskeleton.data.silent: true
             pet.type.witherskeleton.data.raised_arms: true
 
@@ -2069,6 +2211,8 @@ permissions:
             pet.type.wolf.data.visible: true
             pet.type.wolf.data.frozen: true
             pet.type.wolf.data.burning: true
+            pet.type.wolf.data.stationary: true
+            pet.type.wolf.data.persist: true
             pet.type.wolf.data.silent: true
             pet.type.wolf.data.baby: true
             pet.type.wolf.data.tamed: true
@@ -2085,6 +2229,8 @@ permissions:
             pet.type.zoglin.data.visible: true
             pet.type.zoglin.data.frozen: true
             pet.type.zoglin.data.burning: true
+            pet.type.zoglin.data.stationary: true
+            pet.type.zoglin.data.persist: true
             pet.type.zoglin.data.silent: true
             pet.type.zoglin.data.baby: true
 
@@ -2095,6 +2241,8 @@ permissions:
             pet.type.zombie.data.visible: true
             pet.type.zombie.data.frozen: true
             pet.type.zombie.data.burning: true
+            pet.type.zombie.data.stationary: true
+            pet.type.zombie.data.persist: true
             pet.type.zombie.data.silent: true
             pet.type.zombie.data.baby: true
             pet.type.zombie.data.raised_arms: true
@@ -2107,6 +2255,8 @@ permissions:
             pet.type.zombiehorse.data.visible: true
             pet.type.zombiehorse.data.frozen: true
             pet.type.zombiehorse.data.burning: true
+            pet.type.zombiehorse.data.stationary: true
+            pet.type.zombiehorse.data.persist: true
             pet.type.zombiehorse.data.silent: true
             pet.type.zombiehorse.data.baby: true
             pet.type.zombiehorse.data.eating: true
@@ -2119,6 +2269,8 @@ permissions:
             pet.type.zombievillager.data.visible: true
             pet.type.zombievillager.data.frozen: true
             pet.type.zombievillager.data.burning: true
+            pet.type.zombievillager.data.stationary: true
+            pet.type.zombievillager.data.persist: true
             pet.type.zombievillager.data.silent: true
             pet.type.zombievillager.data.baby: true
             pet.type.zombievillager.data.raised_arms: true
@@ -2134,6 +2286,8 @@ permissions:
             pet.type.zombifiedpiglin.data.visible: true
             pet.type.zombifiedpiglin.data.frozen: true
             pet.type.zombifiedpiglin.data.burning: true
+            pet.type.zombifiedpiglin.data.stationary: true
+            pet.type.zombifiedpiglin.data.persist: true
             pet.type.zombifiedpiglin.data.silent: true
             pet.type.zombifiedpiglin.data.baby: true
             pet.type.zombifiedpiglin.data.raised_arms: true

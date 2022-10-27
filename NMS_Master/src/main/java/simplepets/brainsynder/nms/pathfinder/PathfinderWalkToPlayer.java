@@ -70,6 +70,8 @@ public class PathfinderWalkToPlayer extends Goal {
         if (user.getPlayer() == null) return false;
         if (entity == null) return false;
 
+        if (entity.isStationary()) return false;
+
         if (!user.getPlayer().isOnline()) return false;
         if (user.getPlayer().isInsideVehicle()
                 && !ConfigOption.INSTANCE.PATHFINDING_FOLLOW_WHEN_RIDING.getValue()) return false;

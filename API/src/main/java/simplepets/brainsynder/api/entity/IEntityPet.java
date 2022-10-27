@@ -109,6 +109,34 @@ public interface IEntityPet extends IEntityBase, IBurnablePet {
     default void setFrozen (boolean frozen) {}
 
     /**
+     * This will check if the pet will follow the player or not
+     */
+    default boolean isStationary () {
+        return false;
+    }
+
+    /**
+     * This will toggle whether the pet will follow the player or not
+     *
+     * @param stationary
+     */
+    default void setStationary (boolean stationary) {}
+
+    /**
+     * This will check if the pet should still exist when the player is offline
+     */
+    default boolean shouldPersist () {
+        return false;
+    }
+
+    /**
+     * This will toggle whether the pet will despawn when the player logs off or not
+     *
+     * @param persist
+     */
+    default void setPersist (boolean persist) {}
+
+    /**
      * Is the pet visible to players
      */
     boolean isPetVisible ();

@@ -7,3 +7,4 @@ dependency-reduced-pom.xml
 */*.iml
 libs/craftbukkit-*
 /.idea/
+.vscode/
